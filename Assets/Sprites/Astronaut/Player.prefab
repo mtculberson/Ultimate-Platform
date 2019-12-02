@@ -362,12 +362,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 227098c0316b4454cb0f4e143e68086b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 10
+  fireRate: 60
   Damage: 10
   whatToHit:
     serializedVersion: 2
-    m_Bits: 563
+    m_Bits: 1587
   BulletTrailPrefab: {fileID: 8372804907451743153, guid: c1b010bb119139a47bb1c1eacecf243c,
+    type: 3}
+  HitPrefab: {fileID: 9046671233785828442, guid: f919f679ae6de5345b2c3481729320ae,
     type: 3}
   MuzzleFlashPrefab: {fileID: 8002746547475219110, guid: 5d1856edac12a5541bb14edc73a8c6b4,
     type: 3}

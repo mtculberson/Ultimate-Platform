@@ -267,8 +267,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &496369544
-BoxCollider2D:
+--- !u!60 &496369544
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -290,9 +290,16 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.2, y: 11.8}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -2.1000001, y: 5.9}
+      - {x: -2.1000001, y: 4.9}
+      - {x: -1.1, y: 2.1000001}
+      - {x: -1.7, y: -5.9}
+      - {x: 1.9, y: -5.9}
+      - {x: 0.90000004, y: 2.5}
+      - {x: 2.1000001, y: 5.1}
+      - {x: 2.1000001, y: 5.9}
 --- !u!212 &496369545
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -351,7 +358,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 496369543}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9, y: -5.409192, z: 0}
+  m_LocalPosition: {x: 10.97, y: -4.35, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 913261105}
@@ -680,14 +687,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1059986084}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.39730677, y: -5.409192, z: 0}
+  m_LocalPosition: {x: 0.39730677, y: -5.46, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 913261105}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &1059986087
-BoxCollider2D:
+--- !u!60 &1059986087
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -709,9 +716,18 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.8, y: 11.8}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: 2.4, y: 5.9}
+      - {x: -2.4, y: 5.9}
+      - {x: -2.4, y: 4.9}
+      - {x: -1.4, y: 1.9}
+      - {x: -1.6, y: -4.5}
+      - {x: -1.8000001, y: -5.9}
+      - {x: 1.4, y: -5.9}
+      - {x: 1, y: -4.3}
+      - {x: 1.4, y: 3.3}
+      - {x: 2.4, y: 5.1}
 --- !u!4 &1201830464 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4521306593747999476, guid: ef8f02db2c4cf164b91cf976a2dd7843,
@@ -822,8 +838,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1392044428
-BoxCollider2D:
+--- !u!60 &1392044428
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -845,9 +861,16 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 4.8, y: 11.8}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -2.4, y: 5.9}
+      - {x: -2.4, y: 5.3}
+      - {x: -2, y: 4.9}
+      - {x: -0.8, y: -5.9}
+      - {x: 2, y: -5.9}
+      - {x: 1.4, y: 3.7}
+      - {x: 2.4, y: 5.1}
+      - {x: 2.4, y: 5.9}
 --- !u!212 &1392044429
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -930,8 +953,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!61 &1437575697
-BoxCollider2D:
+--- !u!60 &1437575697
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -953,9 +976,14 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 3.8, y: 11.8}
-  m_EdgeRadius: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1.9, y: 5.9}
+      - {x: -1.9, y: 5.3}
+      - {x: -1.5, y: -5.9}
+      - {x: 1.5, y: -5.9}
+      - {x: 1.9, y: -1.9}
+      - {x: 1.9, y: 5.9}
 --- !u!212 &1437575698
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1014,7 +1042,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1437575696}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17, y: -5.409192, z: 0}
+  m_LocalPosition: {x: 17, y: -3.94, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 913261105}
@@ -1635,11 +1663,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4521306593173576722, guid: ef8f02db2c4cf164b91cf976a2dd7843,
-        type: 3}
-      propertyPath: fireRate
-      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ef8f02db2c4cf164b91cf976a2dd7843, type: 3}
