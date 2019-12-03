@@ -61,3 +61,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2f89b92605bf14e8ebc1f19570dee7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnPoint: {fileID: 0}
+  playerPrefab: {fileID: 4521306593747999476, guid: ef8f02db2c4cf164b91cf976a2dd7843,
+    type: 3}
+  spawnDelay: 3
+  spawnPrefab: {fileID: 6845053731953398306, guid: c83b7753c237bef4cb23f1c860ce37cc,
+    type: 3}
+  enemyDeathParticles: {fileID: 4395991255150920857, guid: 7e54194f684ede94db6090b5bbed0f06,
+    type: 3}

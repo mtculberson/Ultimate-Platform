@@ -10,14 +10,13 @@ public class GameMaster : MonoBehaviour
     public int spawnDelay = 2;
     public Transform spawnPrefab;
 
-    void Start()
+    void Awake()
     {
         if(gm == null)
         {
             gm = GameObject.FindGameObjectWithTag("gm").GetComponent<GameMaster>();
         }
     }
-
     
     public IEnumerator RespawnPlayer() {
         GetComponent<AudioSource>().Play();
@@ -36,6 +35,13 @@ public class GameMaster : MonoBehaviour
 
     public static void KillEnemy(Enemy enemy)
     {
-        Destroy(enemy.gameObject);
+        gm._KillEnemy(enemy);
+    }
+
+    public void _KillEnemy(Enemy _enemy)
+    {
+        Transform _clone = (Transform)Instantiate(_enemy.deathParticles, _enemy.transform.position, Quaternion.identity);
+        Destroy(_clone.gameObject, 5f);
+        Destroy(_enemy.gameObject);
     }
 }
