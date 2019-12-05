@@ -1,28 +1,31 @@
 fileFormatVersion: 2
-guid: 0d0d22ed172200a458b8cf60c20663ef
+guid: 7d5767b5c955d9f458b4c7c1e50b7350
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2356764245647287336
-    second: EnvironmentSpriteAtlas_3
+      213: 220295235024812238
+    second: Sprites naveRoxa_1
   - first:
-      213: 2265307819958540324
-    second: EnvironmentSpriteAtlas_4
+      213: 1419182026439675108
+    second: Sprites naveRoxa_0
   - first:
-      213: -4266250707248822512
-    second: EnvironmentSpriteAtlas_5
+      213: -4852321725085804095
+    second: Sprites naveRoxa_2
   - first:
-      213: -2033761688646858496
-    second: EnvironmentSpriteAtlas_6
+      213: 4058122709117840527
+    second: Sprites naveRoxa_3
   - first:
-      213: 8979192460385827557
-    second: EnvironmentSpriteAtlas_0
+      213: -3243562135281252596
+    second: Sprites naveRoxa_4
   - first:
-      213: 2867814667774947146
-    second: EnvironmentSpriteAtlas_1
+      213: 1647628001587346131
+    second: Sprites naveRoxa_5
   - first:
-      213: 115067189088952969
-    second: EnvironmentSpriteAtlas_2
+      213: -4693200497063846645
+    second: Sprites naveRoxa_6
+  - first:
+      213: -2814341746715540398
+    second: Sprites naveRoxa_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -131,13 +134,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_0
+      name: Sprites naveRoxa_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 421
-        width: 512
-        height: 91
+        x: 65
+        y: 1833
+        width: 397
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f821f492908a4248b2128ca9317acfe
-      internalID: 8979192460385827557
+      spriteID: eea6aa6a75e942a46bdeb8a2071d4010
+      internalID: 1419182026439675108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_1
+      name: Sprites naveRoxa_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 236
-        width: 512
-        height: 184
+        x: 643
+        y: 1782
+        width: 397
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db47653939c0114eb3ea33c067b6956
-      internalID: 2867814667774947146
+      spriteID: 76c5ad8bcce42a740af6af58c19113e4
+      internalID: 220295235024812238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_2
+      name: Sprites naveRoxa_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 175
-        width: 512
-        height: 58
+        x: 65
+        y: 1136
+        width: 397
+        height: 363
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade6b6cc18e130643bd407a12d24ea77
-      internalID: 115067189088952969
+      spriteID: 4f89e6c829af83b4fb03adc801b72ce0
+      internalID: -4852321725085804095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_3
+      name: Sprites naveRoxa_3
       rect:
         serializedVersion: 2
-        x: 2
-        y: 113
-        width: 24
-        height: 59
+        x: 643
+        y: 1119
+        width: 397
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a66104eaa7bf07448e5cdd6b3906b7f
-      internalID: -2356764245647287336
+      spriteID: af9823815125cb6409265655bd07d8a0
+      internalID: 4058122709117840527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_4
+      name: Sprites naveRoxa_4
       rect:
         serializedVersion: 2
-        x: 28
-        y: 113
-        width: 24
-        height: 59
+        x: 65
+        y: 745
+        width: 397
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +232,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c89d5954d0da8e44b5dbb74367d6e1f
-      internalID: 2265307819958540324
+      spriteID: 8e547496f6a812e42a92c26738a981cf
+      internalID: -3243562135281252596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_5
+      name: Sprites naveRoxa_5
       rect:
         serializedVersion: 2
-        x: 54
-        y: 113
-        width: 21
-        height: 59
+        x: 643
+        y: 745
+        width: 397
+        height: 295
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +253,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc4bbcf55cd1474fa41c6cc4ac53b5a
-      internalID: -4266250707248822512
+      spriteID: 32489f2265e7c6942beaf9b1a3b88e59
+      internalID: 1647628001587346131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: EnvironmentSpriteAtlas_6
+      name: Sprites naveRoxa_6
       rect:
         serializedVersion: 2
-        x: 77
-        y: 113
-        width: 19
-        height: 59
+        x: 99
+        y: 82
+        width: 312
+        height: 380
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +274,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa8ca0ac544f79d47a401a265f958f0b
-      internalID: -2033761688646858496
+      spriteID: 73a48ec7d7078a8479c69b0346f570bc
+      internalID: -4693200497063846645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprites naveRoxa_7
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 167
+        width: 142
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65c81a793a8a0234f8d9f81fbf101518
+      internalID: -2814341746715540398
       vertices: []
       indices: 
       edges: []
