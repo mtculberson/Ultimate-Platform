@@ -30,6 +30,8 @@ public class GameMaster : MonoBehaviour
         }
     }
 
+    private AudioManager am;
+
     public Transform spawnPoint;
     public Transform playerPrefab;
     public int spawnDelay = 2;
@@ -53,6 +55,8 @@ public class GameMaster : MonoBehaviour
     {
         _remainingLives = maxLives;
         _highscore = setHighScore;
+
+        am = AudioManager.instance;
     }
 
     public void EndGame()
@@ -71,7 +75,7 @@ public class GameMaster : MonoBehaviour
     }
 
     public IEnumerator RespawnPlayer() {
-        GetComponent<AudioSource>().Play();
+        am.PlaySound("Respawning");
         yield return new WaitForSeconds(spawnDelay);
 
         Instantiate(playerPrefab, spawnPoint.position, spawnPoint.rotation);
@@ -96,11 +100,12 @@ public class GameMaster : MonoBehaviour
     public static void KillEnemy(Enemy enemy)
     {
         gm._KillEnemy(enemy);
-        _highscore += 10;
+        _highscore += 100;
     }
 
     public void _KillEnemy(Enemy _enemy)
     {
+        am.PlaySound("Explosion");
         Transform _clone = (Transform)Instantiate(_enemy.deathParticles, _enemy.transform.position, Quaternion.identity);
         Destroy(_clone.gameObject, 5f);
         Destroy(_enemy.gameObject);

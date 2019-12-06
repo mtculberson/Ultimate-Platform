@@ -54,7 +54,6 @@ public class WaveSpawner : MonoBehaviour {
 		{
 			if (!EnemyIsAlive())
 			{
-                gameObject.GetComponent<WaveSpawner>().enabled = false;
                 WaveCompleted();
 			}
 			else
@@ -85,8 +84,8 @@ public class WaveSpawner : MonoBehaviour {
 
 		if (nextWave + 1 > waves.Length - 1)
 		{
-            Debug.Log("ALL WAVES COMPLETE! Looping...");
             GameMaster.WinGame();
+            gameObject.GetComponent<WaveSpawner>().enabled = false;
 		}
 		else
 		{
